@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 3</title>
+    <title>Practica 3: Seleccion semantica de Elementos HTML</title>
 </head>
 <body>
-
+    <!-- Encabezado-->
     <header>
         <h1>Practica 3: Seleccion semantica de Elementos HTML</h1>
     </header>
 
     <main>
-        <section>
+        <!-- Seccion de Objetivos con lista no ordenada -->
+        <section id="objetivos">
             <h2>Los objetivos de esta practica son los siguientes:</h2>
             <ul>
                 <li>Seleccionar etiquetas en base a un contenido Web</li>
@@ -23,26 +24,64 @@
             </ul>
         </section>
 
-        <section>
+        <section id="contenido">
+            <h2>Importancia de la Semantica Web</h2>
+
+            <!-- Articulo A -->
             <article>
                 <p>
                     A. Es importante enfatizar lo importante que es elegir elementos semanticamente, es decir, de una manera que describa con mayor exactitud el significado del contenido. Es posible que no te guste el aspecto de la pagina, pero mas adelante podras <em>modificalo con una hoja de estilos</em>.
                 </p>
             </article>
 
+            <!-- Articulo B -->
             <article>
                 <p>
                     B. Un documento marcado semanticamente asegura que el contenido este <strong>DISPONIBLE</strong> y sea <strong>ACCESIBLE</strong> por un amplio numero de navegadores, desde computadoras de escritorio y dispositivos moviles hasta lectores-asistidos de pantalla.
                 </p>
             </article>
 
+            <!-- Articulo C -->
             <article>
                 <p>
                     C. Esto le permite a programas de <strong>INDEXADO</strong>, tales como motores de busqueda, analizar correctamente el contenido de la pagina y tomar una decision acerca de la importancia de los elementos de la pagina.
                 </p>
             </article>
         </section>
+
+        <!-- Seccion con la demostracion de los tres tipos de listas -->
+        <section id="listas">
+            <h2>Demostracion de los tres tipos de listas</h2>
+
+            <!-- 1. Lista no ordenada -->
+            <h3>Lista No Ordenada</h3>
+            <ul>
+                <li>Elemento de lista A</li>
+                <li>Elemento de lista B</li>
+            </ul>
+
+            <!-- 2. Lista ordenada -->
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Primer paso del flujo</li>
+                <li>Segundo paso del flujo</li>
+            </ol>
+
+            <!-- 3. Lista de definiciones -->
+            <h3>Lista de Definiciones</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado para la estructura web.</dd>
+                <dt>Semantica</dt>
+                <dd>Significado de las etiquetas en el contenido.</dd>
+            </dl>
+        </section>
     </main>
 
+    <!-- Pie de pagina -->
+    <footer>
+        <p>Repositorio hweb</p>
+    </footer>
+    
 </body>
 </html>
