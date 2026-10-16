@@ -6,82 +6,82 @@
     <title>Practica 3: Seleccion semantica de Elementos HTML</title>
 </head>
 <body>
-    <!-- Encabezado-->
+<!-- h1 se usa para el titulo principal de la pagina -->
+    <h1>Guacamole (clasico)</h1>
+
+    <!-- p se utiliza para bloques de texto o parrafos -->
+    <p>Existe un condimento que no puede faltar en toda mesa mexicana. Algunos lo consideran una salsa, otros un aderezo, algunos incluso le llaman ensalada, otros simplemente le llaman por su nombre propio: Guacamole.</p>
+
+    <p>Aunque el guacamole se prepara de diferentes formas segun la zona de la que provenga la receta, la base suele ser la misma. Aqui te mostramos una receta muy completa para preparar esta conocida salsa mexicana:</p>
+
+    <!-- h2 se utiliza para subtitulos de secciones importantes -->
+    <h2>Ingredientes</h2>
+
+    <!-- ul (Unordered List) se usa para listas desordenadas como los ingredientes donde el orden no importa -->
+    <ul>
+        <li>4 o 5 aguacates maduros</li>
+        <li>1 cebolla mediana (normal)</li>
+        <li>1 tomate mediano</li>
+        <li>1 chile serrano (o un jalapeno en conserva)</li>
+        <li>Zumo de 1/2 lima o limon</li>
+        <li>1 manojo de cilantro fresco</li>
+        <li>Sal</li>
+    </ul>
+
+    <h2>Instrucciones</h2>
+
+    <!-- ol (Ordered List) se usa para listas ordenadas secuencialmente, como los pasos de una receta -->
+    <ol>
+        <li>Lavar bien el tomate y el manojo de cilantro</li>
+        <li>Pelar la cebolla y quitarle la capa exterior</li>
+        <li>Trozar la cebolla y el tomate en trozos muy pequenos</li>
+        <li>Picar las hojas de cilantro lo mas fino posible, desechando los tallos</li>
+        <li>Poner todos los ingredientes en un recipiente, preferentemente un molcajete</li>
+        <li>Cortar por la mitad los aguacates, retirando el hueso</li>
+        <li>Sacar toda la pulpa posible de los aguacates y ponerla en el molcajete</li>
+        <li>Anadir el zumo de 1/2 lima con una pizca de sal</li>
+        <li>Anadir un chile serrano muy bien picadito</li>
+        <li>Machacar todos los ingredientes en el molcajete</li>
+    </ol>
+
+    <!-- p para notas o parrafos adicionales -->
+    <p>En caso de no contar con un molcajete, se puede utilizar un tenedor procurando que la pulpa del aguacate se mezcle con los demas ingredientes. Debe quedarnos un guacamole con los trozos visibles, pero opcionalmente puede pasarse por la batidora para dejarlo mas cremoso y con una textura mas uniforme.</p>
+
+
+      <article>
     <header>
-        <h1>Practica 3: Seleccion semantica de Elementos HTML</h1>
+        <!-- time: Etiqueta para fechas legibles por navegadores y buscadores de forma estandar -->
+        <p>publicado por MasterChef, <time datetime="2018-11-15">November 15, 2018</time></p>
     </header>
 
-    <main>
-        <!-- Seccion de Objetivos con lista no ordenada -->
-        <section id="objetivos">
-            <h2>Los objetivos de esta practica son los siguientes:</h2>
-            <ul>
-                <li>Seleccionar etiquetas en base a un contenido Web</li>
-                <li>Definir parrafos y encabezados</li>
-                <li>Descubrir los tres tipos de listas</li>
-                <li>Organizar el contenido en secciones y articulos.</li>
-                <li>Identificacion del texto que puede ser marcado semanticamente con elementos en linea.</li>
-            </ul>
-        </section>
+    <h2>Bajito y Despacito</h2>
 
-        <section id="contenido">
-            <h2>Importancia de la Semantica Web</h2>
+    <p>Esta semana estamos extremadamente emocionados por presentar una nueva tecnica de cocina llamada 
+        <!-- b: Texto en negrita sin mayor importancia semantica especial -->
+        <!-- dfn: Define un termino que va a ser explicado o introducido -->
+        <dfn><b>sous vide</b></dfn>. Con la tecnica 
+        <!-- i: Texto en cursiva para estilizar terminos extranjeros o especificos -->
+        <i>sous vide</i>, tu sumerges un recipiente (generalmente de plastico sellado al vacio) en un bano de agua que precisamente se adapta a la temperatura requerida para que la comida sea cocinada. En este programa, 
+        <!-- cite: Se usa para titular obras, programas, libros o referencias -->
+        <cite>Cocina para Geeks</cite>, Jaime Potter describe la tecnica como 
+        <!-- q: Para citas textuales cortas entre comillas -->
+        <q>pocion magica a temperatura ultra baja</q>.</p>
 
-            <!-- Articulo A -->
-            <article>
-                <p>
-                    A. Es importante enfatizar lo importante que es elegir elementos semanticamente, es decir, de una manera que describa con mayor exactitud el significado del contenido. Es posible que no te guste el aspecto de la pagina, pero mas adelante podras <em>modificalo con una hoja de estilos</em>.
-                </p>
-            </article>
+    <p>La siguiente semana, prepararemos 
+        <!-- em: Anade enfasis fuerte de voz al texto -->
+        <em>Salmon Sous Vide con Eneldo Holandes</em>. Para asistir al programa, contactanos antes del 30 de Noviembre.</p>
 
-            <!-- Articulo B -->
-            <article>
-                <p>
-                    B. Un documento marcado semanticamente asegura que el contenido este <strong>DISPONIBLE</strong> y sea <strong>ACCESIBLE</strong> por un amplio numero de navegadores, desde computadoras de escritorio y dispositivos moviles hasta lectores-asistidos de pantalla.
-                </p>
-            </article>
+    <p>registro@masterchef.com<br>
+    552-336-1800</p>
 
-            <!-- Articulo C -->
-            <article>
-                <p>
-                    C. Esto le permite a programas de <strong>INDEXADO</strong>, tales como motores de busqueda, analizar correctamente el contenido de la pagina y tomar una decision acerca de la importancia de los elementos de la pagina.
-                </p>
-            </article>
-        </section>
-
-        <!-- Seccion con la demostracion de los tres tipos de listas -->
-        <section id="listas">
-            <h2>Demostracion de los tres tipos de listas</h2>
-
-            <!-- 1. Lista no ordenada -->
-            <h3>Lista No Ordenada</h3>
-            <ul>
-                <li>Elemento de lista A</li>
-                <li>Elemento de lista B</li>
-            </ul>
-
-            <!-- 2. Lista ordenada -->
-            <h3>Lista Ordenada</h3>
-            <ol>
-                <li>Primer paso del flujo</li>
-                <li>Segundo paso del flujo</li>
-            </ol>
-
-            <!-- 3. Lista de definiciones -->
-            <h3>Lista de Definiciones</h3>
-            <dl>
-                <dt>HTML</dt>
-                <dd>Lenguaje de marcado para la estructura web.</dd>
-                <dt>Semantica</dt>
-                <dd>Significado de las etiquetas en el contenido.</dd>
-            </dl>
-        </section>
-    </main>
-
-    <!-- Pie de pagina -->
-    <footer>
-        <p>Repositorio hweb</p>
-    </footer>
+    <p>
+        <!-- small: Letra pequena para advertencias, notas al pie o descargo de responsabilidad -->
+        <small>Advertencia: El salmon cocinado a la Sous vide no esta pasteurizado. Evitalo si se esta embarazada o se tiene problemas de alergia e inmunidad.</small>
+    </p>
+</article>
     
+
+
+
 </body>
 </html>
